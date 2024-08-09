@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import type { FormProps } from "antd";
-import { useRouter } from "next/navigation";
 import { Button, Checkbox, Form, Input } from "antd";
 import googleLogo from "../../../public/image/7123025_logo_google_g_icon.ico";
 import githubLogo from "../../../public/image/github-mark.png";
@@ -12,11 +11,9 @@ type FieldType = {
   password?: string;
   remember?: string;
 };
-const router = useRouter();
+
 const onFinish: FormProps<FieldType>["onFinish"] = (values) => {
-  if (values && values.username === "Admin" && values.password === "123") {
-    router.push("/");
-  }
+  console.log("Success:", values);
 };
 
 const onFinishFailed: FormProps<FieldType>["onFinishFailed"] = (errorInfo) => {

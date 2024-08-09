@@ -1,5 +1,4 @@
 import { NextAuthOptions } from "next-auth";
-import { useSession } from "next-auth/react";
 import GoogleProviders from "next-auth/providers/google";
 import GithubProviders from "next-auth/providers/github";
 

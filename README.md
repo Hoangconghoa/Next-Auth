@@ -1,6 +1,6 @@
 # Các kiến thức học được NextAuth.js
 
-dùng để xác thực mã nguồn mở hoàn chỉnh cho các ứng dụng Next.js.
+Dùng để xác thực mã nguồn mở hoàn chỉnh cho các ứng dụng Next.js.
 
 ## Hook
 
